@@ -9,9 +9,9 @@ public class Main {
         System.out.println("chose 1 for addition and 2 for Subtraction");
         int option = sc.nextInt();
         if(option == 1){
-            System.out.println(number1+number2); 
+            System.out.println(number1 + number2); 
         }else if(option==2){
-            System.out.println(number1-number2);
+            System.out.println(number1 - number2);
         }else{
             System.out.println("please enter valied option");
         }
